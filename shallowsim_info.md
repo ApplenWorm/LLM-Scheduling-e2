@@ -14,4 +14,5 @@ This document contains links to ShallowSim repositories from different contribut
 
 ## About ShallowSim
 
-ShallowSim appears to be a simulation framework or tool. For more details about each implementation, please visit the respective GitHub repositories linked above.
+Shallowsim is a specialist simulator designed to estimate the compute times for different LLM request types. Specifically built for DeepSeek-V3/R1 models, it has native support for simulating MoE architectures. Unlike Vidur, Shallowsim requires no profiling phase, rather a list of device performance metrics is provided e.g. fp8 performance.
+These metrics are then used to compute the expected performance for the prefill and decode phase separately
